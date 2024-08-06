@@ -409,17 +409,5 @@ body {
     background-color: #007bff;
 }
 
-.inicio {
-    font-size: 60px;
-    text-align: center;
-    margin-top: 140px;
-}
-
-@media (max-width: 768px) {
-    .inicio {
-        font-size: 30px;  /* Reduce the font size for smaller screens */
-        margin-top: 80px;  /* Adjust the margin for smaller screens */
-    }
-}
 
 
