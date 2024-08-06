@@ -408,3 +408,34 @@ body {
     color: #fff;
     background-color: #007bff;
 }
+
+.inicio {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+@media (max-width: 768px) {
+    .inicio {
+        font-size: 30px;  /* Reduce the font size for smaller screens */
+        margin-top: 80px;  /* Adjust the margin for smaller screens */
+    }
+}
+
+.wabe {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.wabe svg {
+    display: block;
+    width: 100%;
+    height: 100px;  /* Adjust height for mobile screens */
+}
+
+@media (max-width: 768px) {
+    .wabe svg {
+        height: 50px;  /* Further adjust height for smaller screens */
+    }
+}
